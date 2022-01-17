@@ -1,0 +1,68 @@
+.header {
+  border: 1px solid #dbdcdc;
+  border-top: 0;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.header-title {
+  flex: 1;
+  margin: 0.5rem 0;
+  font-weight: 900;
+  font-size: 1.4rem;
+  text-align: 'center';
+}
+
+.home {
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+    align-items: 'center';
+    justify-content: 'center';
+}
+
+
+.contentStyle {
+    padding: '3rem 3rem';
+    flex-direction: 'row';
+    justify-content: 'center';
+    align-items: 'center';
+}
+
+.title {
+    background-color: #55cfee;
+}
+
+.mission-btn {
+  background-color: #55cfee;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
+
+.login-btn > * {
+  margin-right: 0.5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
