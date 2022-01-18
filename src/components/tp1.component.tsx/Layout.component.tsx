@@ -10,7 +10,7 @@ const HCLayout: FC = ({ children }) => {
             <Header className='header-title'>
                 <Menu theme='dark' mode='horizontal' defaultSelectedKeys={['home']}>
                     <Menu.Item key='home'>
-                        <Link to='/'>Home</Link>
+                        <Link to='/'>HOME</Link>
                     </Menu.Item>
                     <Menu.Item key='tp1'>
                         <Link to='/tp1'>TP1</Link>
