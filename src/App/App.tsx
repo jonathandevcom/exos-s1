@@ -1,15 +1,15 @@
 import { useState } from 'react';
 import './App.css';
+import { Route, Routes } from 'react-router';
 import { HomePage, Tp1Page, Tp2Page } from '../pages';
 import Layout from '../components/tp1.component.tsx/Layout.component';
 
-import { Route, Routes } from 'react-router';
 import * as MOCK_POSTS from '../datas/exo1.data';
 
 
 const App = () => {
 
-  const [dataTp1, setDataTp1] = useState([MOCK_POSTS])
+  const [dataTp1, setDataTp1] = useState([MOCK_POSTS]);
 
   return (
     <Layout>

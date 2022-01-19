@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom'
 import 'antd/dist/antd.css'
 import reportWebVitals from './reportWebVitals'
 
-import Provider from 'redux';
-import { BrowserRouter as Router } from 'react-router-dom'
+import Provider from 'react-redux';
+import { ConnectedRouter } from 'connected-react-router';
+import history from './utils/history.util';
 import App from './App/App'
 
 function AppWithReduxContext() {
@@ -12,10 +13,9 @@ function AppWithReduxContext() {
 
     return (
       
-        <Router>
+        <ConnectedRouter history={history}>
           <App />
-          
-        </Router>
+        </ConnectedRouter>
       
     )
   
