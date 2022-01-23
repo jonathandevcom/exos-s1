@@ -7,9 +7,15 @@ import Provider from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import history from './utils/history.util';
 import App from './App/App'
+import { createStore, combineReducers } from "redux";
+
+let reducers = combineReducers({
+  reducers
+});
+
+const store = createStore(reducers);
 
 function AppWithReduxContext() {
-
 
     return (
       <Provider store={store}>
