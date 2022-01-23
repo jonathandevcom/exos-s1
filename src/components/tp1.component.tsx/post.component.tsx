@@ -1,8 +1,9 @@
 import React from 'react';
+import postData from '../../models/dataTp1.model';
 import Vote from './Vote.component';
 
 
-const Post = ({ onDelete, id, productImageUrl, url, title, onVote, votes, description, submitterAvatarUrl }) => {
+const Post = ({ onDelete, id, productImageUrl, url, title, onVote, votes, description, submitterAvatarUrl } : postData) => {
     return (
         <div className="item">
 

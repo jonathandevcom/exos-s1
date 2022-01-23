@@ -12,10 +12,13 @@ function AppWithReduxContext() {
 
 
     return (
-      
+      <Provider store={store}>
+
         <ConnectedRouter history={history}>
           <App />
         </ConnectedRouter>
+        
+      </Provider>
       
     )
   
