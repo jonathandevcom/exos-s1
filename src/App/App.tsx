@@ -1,8 +1,8 @@
 import React  from 'react';
 import './App.css';
 import { Route, Routes } from 'react-router';
-import { HomePage, Tp1Page, Tp2Page } from '../pages';
-import Layout from '../components/tp1.component.tsx/Layout.component';
+import { HomePage, Tp1Page, Tp2Page } from '../pages/index.pages';
+import Layout from '../components/Layout.components';
 
 const App = () => {
 

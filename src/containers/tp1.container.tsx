@@ -1,7 +1,7 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as Tp1Component from '../components';
-import * as Tp1Actions from '../actions';
+import Tp1Component from '../components/index.components';
+import Tp1Actions from '../actions/index.actions';
 
 const mapStateToProps = (store) => ({
   values: store.reducers,

@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import postData from '../models/dataTp1.model';
 import MOCK_POSTS from '../datas/exo1.data';
-import Post from '../components/tp1.component.tsx/Post.component';
+import { Post, Vote } from '../components/tp1.components/index.tp1.components';
 
 
 const TP1Page = () => {

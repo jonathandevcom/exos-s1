@@ -6,11 +6,13 @@ import reportWebVitals from './reportWebVitals'
 import Provider from 'react-redux';
 import { ConnectedRouter } from 'connected-react-router';
 import history from './utils/history.util';
-import App from './App/App'
-import { createStore, combineReducers } from "redux";
+import App from './App/App';
+import { applyMiddleware, createStore, combineReducers } from "redux";
+import thunk from 'redux-thunk';
 
 let reducers = combineReducers({
-  reducers
+  reducers,
+  applyMiddleware(thunk)
 });
 
 const store = createStore(reducers);
